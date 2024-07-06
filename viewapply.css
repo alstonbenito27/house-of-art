@@ -1,0 +1,84 @@
+body {
+    background-color: #a8b9aa;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #41694E;
+}
+
+h1 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: #41694E;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 30px;
+    padding: 20px;
+    color: #41694E;
+    font-variant: small-caps;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    color: #04AA6D;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+input[type="submit"] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    color: red;
+}

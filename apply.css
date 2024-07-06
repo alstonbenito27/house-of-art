@@ -1,0 +1,120 @@
+.error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+body {
+    background-color: #a8b9aa;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #41694E;
+}
+
+
+.stitle {
+    font-size: 30px;
+    padding: 20px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.shead {
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 30px;
+    padding: 10px 0; /* Adjusted padding for better spacing */
+    font-variant: small-caps;
+}
+
+
+
+.sforms input,
+.sforms select {
+    width: 100%; /* Set width to 100% for equal spacing */
+    padding: 12px 20px;
+    margin: 10px 0; /* Adjusted margin for better spacing */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 0; /* Adjusted margin for better spacing */
+    cursor: pointer;
+}
+.form-container{
+    background-color: rgb(238, 234, 234); 
+width:50%; 
+height: 800px; 
+margin-left: 25%;
+border-radius: 5%;
+}
+.stitle{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: #41694E;
+    font-variant: small-caps;   
+    text-align: center;
+}
+.shead{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 30px;
+    padding: 20px;
+    color: #41694E;
+    font-variant: small-caps;
+}
+input[type=text],input[type=email],textarea ,select {
+    width: 70%;
+    padding: 12px 20px;
+    margin:20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Links styling */
+a {
+    text-decoration: none;
+    color: #41694E;
+    padding: 10px; /* Padding around links */
+    border: 1px solid #41694E;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #41694E;
+    color: #fff;
+}
+
+/* Flexbox properties for links container */
+.link-container {
+    display: flex;
+    justify-content: space-between; /* Spread links evenly across the container */
+    width: 100%; /* Ensure links span the full width */
+    margin-top: 20px; /* Top margin for separation */
+}
+

@@ -1,0 +1,73 @@
+body {
+    background-color: #a8b9aa;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #41694E;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    color: #41694E;
+    font-size: 20px;
+}
+
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: linear-gradient(90deg, rgba(130,178,139,1) 0%, rgba(71,144,78,1) 55%, rgba(56,154,78,1) 100%);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
